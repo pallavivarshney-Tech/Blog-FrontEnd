@@ -1,7 +1,6 @@
 import axios from "axios";
 
-// const url = "https://backend-project-lime.vercel.app/api/home";
-const url = "https://mongodb-reactblogproject.vercel.app/api/blog";
+const url = "https://react-blog-backend-roan.vercel.app/api/blog";
 
 const fetchData = async () => {
   try {

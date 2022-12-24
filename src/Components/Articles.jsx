@@ -18,7 +18,7 @@ const Articles = (props) => {
   const deleteBlog = async (id) => {
     try {
       await axios.delete(
-        `https://mongodb-reactblogproject.vercel.app/api/blog/${id}`
+        `https://react-blog-backend-roan.vercel.app/api/blog/${id}`
       );
       toast.success("Successfully Deleted");
     } catch (error) {

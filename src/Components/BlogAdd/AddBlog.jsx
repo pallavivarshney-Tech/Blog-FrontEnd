@@ -25,7 +25,7 @@ const AddBlog = () => {
       console.log(blog);
       console.log("creation started");
       const data = await axios.post(
-        "https://mongodb-reactblogproject.vercel.app/api/blog",
+        "https://react-blog-backend-roan.vercel.app/api/blog",
         blog
       );
       console.log(data);
